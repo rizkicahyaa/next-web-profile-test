@@ -14,9 +14,31 @@ export default function Home() {
                     <a className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]" href="https://rizkicahyaa.vercel.app" target="_blank" rel="noopener noreferrer">
                         My Profile
                     </a>
-                    <a className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]" href="https://github.com/rizkicahyaa?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <a className="flex h-12 w-full items-center justify-center rounded-full border border-gray-300 border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]" href="https://github.com/rizkicahyaa?tab=repositories" target="_blank" rel="noopener noreferrer">
                         More Project
                     </a>
+                </div>
+
+                <div className="mx-auto">
+                    <div className="mx-auto w-36 h-0.5 bg-gray-200 mt-12"></div>
+                </div>
+
+                <div className="flex flex-col flex-grow w-full gap-6 mt-10">
+                    <h1 className="font-bold text-2xl">My Project</h1>
+                    <div className="border-gray-300 border-1 shadow-sm rounded-2xl p-6 sm:w-full">
+                        <h1 className="font-bold text-2xl mb-3">MiraiNime</h1>
+                        <p className="text-justify mb-6">MiraiNime is a simple website that utilizes the Jikan API to display anime information from MyAnimeList.</p>
+                        <a href="https://github.com/rizkicahyaa/mirai-nime.git" className="bg-foreground text-white px-7 py-2.5 rounded-3xl hover:bg-[#000000b3] sm:w-full">
+                            View Project
+                        </a>
+                    </div>
+                    <div className="border-gray-300 border-1 shadow-sm rounded-2xl p-6 sm:w-full">
+                        <h1 className="font-bold text-2xl mb-3">Focsy</h1>
+                        <p className="text-justify mb-6">A productivity timer web application that helps you stay focused, manage your time, and get more done (pomodoro).</p>
+                        <a href="https://github.com/rizkicahyaa/focsy.git" className="bg-foreground text-white px-7 py-2.5 rounded-3xl hover:bg-[#000000b3]">
+                            View Project
+                        </a>
+                    </div>
                 </div>
             </main>
         </div>
