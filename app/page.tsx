@@ -28,14 +28,14 @@ export default function Home() {
                     <div className="border-gray-300 border-1 shadow-sm rounded-2xl p-6 sm:w-full">
                         <h1 className="font-bold text-2xl mb-3">MiraiNime</h1>
                         <p className="text-justify mb-6">MiraiNime is a simple website that utilizes the Jikan API to display anime information from MyAnimeList.</p>
-                        <a href="https://github.com/rizkicahyaa/mirai-nime.git" className="bg-foreground text-white px-7 py-2.5 rounded-3xl hover:bg-[#000000b3] sm:w-full">
+                        <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-white px-7 py-2.5 rounded-3xl hover:bg-[#000000b3] sm:w-full">
                             View Project
                         </a>
                     </div>
                     <div className="border-gray-300 border-1 shadow-sm rounded-2xl p-6 sm:w-full">
                         <h1 className="font-bold text-2xl mb-3">Focsy</h1>
                         <p className="text-justify mb-6">A productivity timer web application that helps you stay focused, manage your time, and get more done (pomodoro).</p>
-                        <a href="https://github.com/rizkicahyaa/focsy.git" className="bg-foreground text-white px-7 py-2.5 rounded-3xl hover:bg-[#000000b3]">
+                        <a href="https://github.com/rizkicahyaa/focsy.git" target="_blank" className="bg-foreground text-white px-7 py-2.5 rounded-3xl hover:bg-[#000000b3]">
                             View Project
                         </a>
                     </div>
