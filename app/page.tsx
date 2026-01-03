@@ -40,6 +40,10 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
+
+                <footer className="text-center mx-auto mt-20">
+                    <p className="">&copy; 2026 Rizki Cahya. All rights reserved.</p>
+                </footer>
             </main>
         </div>
     );
