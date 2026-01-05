@@ -27,8 +27,8 @@ export default function Home() {
                     <h1 className="font-bold text-2xl">My Project</h1>
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                         <div className="border-gray-300 border-1 shadow-sm rounded-2xl p-6 sm:w-full">
-                            <h1 className="font-bold text-2xl mb-3">MiraiNime</h1>
-                            <p className="text-justify mb-6 leading-8">MiraiNime is a simple website that utilizes the Jikan API to display anime information from MyAnimeList.</p>
+                            <h1 className="font-bold text-lg mb-3">MiraiNime</h1>
+                            <p className="text-justify mb-6 leading-8 text-zinc-600">MiraiNime is a simple website that utilizes the Jikan API to display anime information from MyAnimeList.</p>
 
                             <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
                                 <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc]">
@@ -41,8 +41,8 @@ export default function Home() {
                         </div>
 
                         <div className="border-gray-300 border-1 shadow-sm rounded-2xl p-6 sm:w-full">
-                            <h1 className="font-bold text-2xl mb-3">Focsy</h1>
-                            <p className="text-justify mb-6 leading-8">A productivity timer web application that helps you stay focused, manage your time, and get more done (pomodoro).</p>
+                            <h1 className="font-bold text-lg mb-3">Focsy</h1>
+                            <p className="text-justify mb-6 leading-8 text-zinc-600">A productivity timer web application that helps you stay focused, manage your time, and get more done (pomodoro).</p>
                             <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
                                 <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc]">
                                     View Project
@@ -54,8 +54,8 @@ export default function Home() {
                         </div>
 
                         <div className="border-gray-300 border-1 shadow-sm rounded-2xl p-6 sm:w-full">
-                            <h1 className="font-bold text-2xl mb-3">Jogja Culinary</h1>
-                            <p className="text-justify mb-6 leading-8">A culinary website in Yogyakarta with a responsive layout using React, Tailwind CSS, and MySQL</p>
+                            <h1 className="font-bold text-lg mb-3">Jogja Culinary</h1>
+                            <p className="text-justify mb-6 leading-8 text-zinc-600">A culinary website in Yogyakarta with a responsive layout using React, Tailwind CSS, and MySQL</p>
                             <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
                                 <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc]">
                                     View Project
@@ -74,8 +74,8 @@ export default function Home() {
 
                 <div className="flex flex-col flex-grow w-full gap-6 mt-10">
                     <div className="border-b border-gray-900/10 pb-12">
-                        <h2 className="text-base/7 font-semibold text-gray-900">Personal Information</h2>
-                        <p className="mt-1 text-sm/6 text-gray-600">Use a permanent address where you can receive mail.</p>
+                        <h1 className="font-bold text-2xl text-gray-900">Contact Me</h1>
+                        {/* <p className="mt-1 text-sm/6 text-gray-600">Use a permanent address where you can receive mail.</p> */}
                         <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                             <div className="sm:col-span-3">
                                 <label htmlFor="first-name" className="block text-sm/6 font-medium text-gray-900">
