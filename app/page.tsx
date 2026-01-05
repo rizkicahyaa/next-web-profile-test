@@ -23,6 +23,7 @@ export default function Home() {
                     <div className="mx-auto w-36 h-0.5 bg-gray-200 mt-12"></div>
                 </div>
 
+                {/* projects */}
                 <div className="flex flex-col flex-grow w-full gap-6 mt-10">
                     <h1 className="font-bold text-2xl">My Project</h1>
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -72,12 +73,19 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="text-center mt-6">
+                        <a href="https://github.com/rizkicahyaa?tab=repositories" className="hover:text-blue-500 transition" target="_blank">
+                            More? On my GitHub →
+                        </a>
+                    </div>
                 </div>
 
                 <div className="mx-auto">
                     <div className="mx-auto w-36 h-0.5 bg-gray-200 mt-12"></div>
                 </div>
 
+                {/* contact */}
                 <div className="flex flex-col flex-grow w-full gap-6 mt-10">
                     <div className="pb-4">
                         <h1 className="font-bold text-2xl text-gray-900">Contact Me</h1>
