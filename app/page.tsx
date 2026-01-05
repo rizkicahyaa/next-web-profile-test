@@ -31,7 +31,7 @@ export default function Home() {
                             <p className="text-justify mb-6 leading-8 text-zinc-600">MiraiNime is a simple website that utilizes the Jikan API to display anime information from MyAnimeList.</p>
 
                             <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
-                                <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] text-black">
+                                <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] dark:text-black">
                                     View Project
                                 </a>
                                 <a href="https://mirainime.vercel.app" target="_blank" className="bg-white text-sm text-black border-1 border-gray-300 px-5 py-2.5 rounded-3xl transition hover:bg-[#00000021]">
@@ -44,7 +44,7 @@ export default function Home() {
                             <h1 className="font-bold text-lg mb-3">Focsy</h1>
                             <p className="text-justify mb-6 leading-8 text-zinc-600">A productivity timer web application that helps you stay focused, manage your time, and get more done (pomodoro).</p>
                             <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
-                                <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] text-black">
+                                <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] dark:text-black">
                                     View Project
                                 </a>
                                 <a href="https://mirainime.vercel.app" target="_blank" className="bg-white text-sm text-black border-1 border-gray-300 px-5 py-2.5 rounded-3xl transition hover:bg-[#00000021]">
@@ -57,7 +57,7 @@ export default function Home() {
                             <h1 className="font-bold text-lg mb-3">Jogja Culinary</h1>
                             <p className="text-justify mb-6 leading-8 text-zinc-600">A culinary website in Yogyakarta with a responsive layout using React, Tailwind CSS, and MySQL</p>
                             <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
-                                <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] text-black">
+                                <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] dark:text-black">
                                     View Project
                                 </a>
                                 <a href="https://mirainime.vercel.app" target="_blank" className="bg-white text-sm text-black border-1 border-gray-300 px-5 py-2.5 rounded-3xl transition hover:bg-[#00000021]">
