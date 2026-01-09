@@ -48,7 +48,7 @@ export default function Home() {
                             <Image className="w-full h-40 object-cover" src="/images/focsy-2.png" alt="focsy" width={500} height={20} priority />
                             <div className="p-6">
                                 <h1 className="font-bold text-lg mb-3">Focsy</h1>
-                                <p className="text-justify mb-6 leading-8 text-zinc-600">A productivity timer web application that helps you stay focused, manage your time, and get more done (pomodoro).</p>
+                                <p className="text-justify mb-6 leading-8 text-zinc-600 dark:text-gray-200">A productivity timer web application that helps you stay focused, manage your time, and get more done (pomodoro).</p>
                                 <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
                                     <a href="https://github.com/rizkicahyaa/focsy.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] dark:text-black">
                                         View Project
@@ -64,7 +64,7 @@ export default function Home() {
                             <Image className="w-full h-40 object-cover" src="/images/jogja-culinary.png" alt="jogja-culinary" width={500} height={20} priority />
                             <div className="p-6">
                                 <h1 className="font-bold text-lg mb-3">Jogja Culinary</h1>
-                                <p className="text-justify mb-6 leading-8 text-zinc-600">A culinary website in Yogyakarta with a responsive layout using React, Tailwind CSS, and MySQL</p>
+                                <p className="text-justify mb-6 leading-8 text-zinc-600 dark:text-gray-200">A culinary website in Yogyakarta with a responsive layout using React, Tailwind CSS, and MySQL</p>
                                 <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
                                     <a href="https://github.com/rizkicahyaa/jogja-culinary.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] dark:text-black">
                                         View Project
@@ -77,7 +77,7 @@ export default function Home() {
                             <Image className="w-full h-40 object-cover" src="/images/roomoria.png" alt="roomoria" width={500} height={20} priority />
                             <div className="p-6">
                                 <h1 className="font-bold text-lg mb-3">Roomoria</h1>
-                                <p className="text-justify mb-6 leading-8 text-zinc-600">Modern hotel booking website built using React, TypeScript, and Tailwind CSS.</p>
+                                <p className="text-justify mb-6 leading-8 text-zinc-600 dark:text-gray-200">Modern hotel booking website built using React, TypeScript, and Tailwind CSS.</p>
                                 <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
                                     <a href="https://github.com/rizkicahyaa/roomoria.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] dark:text-black">
                                         View Project
