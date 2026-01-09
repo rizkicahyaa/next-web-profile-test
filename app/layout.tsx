@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Rizki Cahya - Profile",
+    title: "@rizkichrmdn",
     description: "Rizki Cahya's Profile",
     // icons: {
     //     icon: [
