@@ -31,7 +31,7 @@ export default function Home() {
                             <Image className="w-full h-40 object-cover" src="/images/mirainime.png" alt="mirainime" width={500} height={20} priority />
                             <div className="p-6">
                                 <h1 className="font-bold text-lg mb-3">MiraiNime</h1>
-                                <p className="text-justify mb-6 leading-8 text-zinc-600">MiraiNime is a simple website that utilizes the Jikan API to display anime information from MyAnimeList.</p>
+                                <p className="text-justify mb-6 leading-8 text-zinc-600 dark:text-gray-200">MiraiNime is a simple website that utilizes the Jikan API to display anime information from MyAnimeList.</p>
 
                                 <div className="flex flex-col w-full gap-3 text-base text-center font-medium sm:flex-row">
                                     <a href="https://github.com/rizkicahyaa/mirai-nime.git" target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] dark:text-black">
@@ -104,12 +104,11 @@ export default function Home() {
                 {/* contact */}
                 <div className="flex flex-col flex-grow w-full gap-6 mt-10">
                     <div className="pb-4">
-                        <h1 className="font-bold text-2xl text-gray-900">Contact Me</h1>
-                        {/* <p className="mt-1 text-sm/6 text-gray-600">Use a permanent address where you can receive mail.</p> */}
+                        <h1 className="font-bold text-2xl">Contact Me</h1>
                         <form action="">
                             <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="name" className="block text-sm/6 font-medium text-gray-900">
+                                    <label htmlFor="name" className="block text-sm/6 font-medium">
                                         Your name
                                     </label>
                                     <div className="mt-2">
@@ -117,7 +116,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="email" className="block text-sm/6 font-medium text-gray-900">
+                                    <label htmlFor="email" className="block text-sm/6 font-medium">
                                         Your email
                                     </label>
                                     <div className="mt-2">
@@ -125,7 +124,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="sm:col-span-full">
-                                    <label htmlFor="message" className="block text-sm/6 font-medium text-gray-900">
+                                    <label htmlFor="message" className="block text-sm/6 font-medium">
                                         Your message
                                     </label>
                                     <div className="mt-2">
@@ -134,7 +133,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="mt-6 flex items-center justify-center gap-x-6">
-                                <button type="submit" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc]">
+                                <button type="submit" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] text-gray-900">
                                     Send Message
                                 </button>
                             </div>
