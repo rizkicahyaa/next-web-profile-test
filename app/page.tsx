@@ -133,7 +133,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="mt-6 flex items-center justify-center gap-x-6">
-                                <button type="submit" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] text-gray-900">
+                                <button type="submit" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:hover:bg-[#ccc] dark:text-gray-900">
                                     Send Message
                                 </button>
                             </div>
