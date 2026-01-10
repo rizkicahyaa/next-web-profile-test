@@ -15,11 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "@rizkichrmdn",
     description: "Rizki Cahya's Profile",
-    // icons: {
-    //     icon: [
-    //         url: "/public/"
-    //     ]
-    // }
 };
 
 export default function RootLayout({
