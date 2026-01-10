@@ -10,7 +10,7 @@ export default function Header() {
                 <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400 text-justify">Computer Science student at Universitas Amikom Yogyakarta. Passionate about building web applications, teaching programming, and exploring machine learning in real-world projects.</p>
             </div>
             <div className="flex flex-col w-full gap-6 text-base font-medium sm:flex-row">
-                <a className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]" href="https://rizkicahyaa.vercel.app" target="_blank" rel="noopener noreferrer">
+                <a className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]" href="https://rizkicahya.vercel.app" target="_blank" rel="noopener noreferrer">
                     My Profile
                 </a>
                 <a className="flex h-12 w-full items-center justify-center rounded-full border border-gray-300 border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]" href="https://github.com/rizkicahyaa?tab=repositories" target="_blank" rel="noopener noreferrer">
