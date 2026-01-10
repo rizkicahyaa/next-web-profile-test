@@ -54,7 +54,7 @@ export default function ProjectsSection() {
                             <p className="mb-6 leading-8 text-zinc-600 dark:text-gray-200 text-justify">{project.description}</p>
 
                             <div className="flex flex-col gap-3 sm:flex-row text-center">
-                                <a href={project.github} target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3]">
+                                <a href={project.github} target="_blank" className="bg-foreground text-sm text-white px-5 py-2.5 rounded-3xl transition hover:bg-[#000000b3] dark:text-black">
                                     View Project
                                 </a>
 
