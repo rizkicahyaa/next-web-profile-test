@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import ProjectSection from "./components/projectSection";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
     return (
@@ -9,10 +10,7 @@ export default function Home() {
                 <Header />
                 <ProjectSection />
                 <Contact />
-
-                <footer className="text-center mx-auto mt-20">
-                    <p className="">&copy; 2026 Rizki Cahya. All rights reserved.</p>
-                </footer>
+                <Footer />
             </main>
         </div>
     );
