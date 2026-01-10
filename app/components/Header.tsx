@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Header() {
     return (
         <>
-            <Image className="rounded-full" src="/Villhaze.jpg" alt="logo" width={100} height={20} priority />
+            <Image className="rounded-full" src="/profile-pic-2.jpg" alt="logo" width={100} height={20} priority />
             <div className="flex flex-col items-center gap-6 py-5 text-center sm:items-start sm:text-left">
                 <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">Rizki Cahya Ramdani</h1>
                 <span className="">Software Engineering | Web Developer</span>
